@@ -5,5 +5,5 @@ using UnityEngine;
 public class DialoguePrompt
 {
     public string promptOption;
-    public string[] PromptResponseDialogue;
+    public List<string> PromptResponseDialogue;
 }

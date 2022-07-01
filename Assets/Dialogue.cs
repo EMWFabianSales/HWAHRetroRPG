@@ -7,5 +7,7 @@ public class Dialogue
     public string speach;
     public bool isPrompt;
 
-    public DialoguePrompt[] PromptOptions;
+    [HideInInspector]
+    public bool showPromptResponses;
+    public List<DialoguePrompt> PromptOptions;
 }
